@@ -1,0 +1,4 @@
+uvicorn main:app --reload
+streamlit run dashboard.py
+py automation.py
+py calendar_scraper.py

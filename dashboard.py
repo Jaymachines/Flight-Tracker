@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 import datetime
 
 # --- CONFIGURATION ---
-DB_URL = "sqlite:///./flight_data.db"
+DB_URL = "sqlite:///./presentation_data.db"
 engine = create_engine(DB_URL)
 st.set_page_config(page_title="StreetPulse Analytics", layout="wide", page_icon="📈")
 
